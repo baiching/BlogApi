@@ -1,7 +1,5 @@
-package blog.api.repository;
+package blog.api.role;
 
-import blog.api.entity.ERole;
-import blog.api.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package blog.api.entity;
+package blog.api.role;
 
 public enum ERole {
     ROLE_USER,

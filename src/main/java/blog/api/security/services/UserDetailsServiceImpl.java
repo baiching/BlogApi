@@ -1,7 +1,7 @@
 package blog.api.security.services;
 
-import blog.api.entity.User;
-import blog.api.repository.UserRepository;
+import blog.api.user.User;
+import blog.api.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

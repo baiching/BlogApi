@@ -1,6 +1,5 @@
-package blog.api.repository;
+package blog.api.comments;
 
-import blog.api.entity.Comment;
 import org.hibernate.type.descriptor.converter.spi.JpaAttributeConverter;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

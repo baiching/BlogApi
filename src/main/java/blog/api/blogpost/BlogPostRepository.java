@@ -1,6 +1,5 @@
-package blog.api.repository;
+package blog.api.blogpost;
 
-import blog.api.entity.BlogPost;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

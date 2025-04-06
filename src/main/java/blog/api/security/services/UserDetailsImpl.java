@@ -1,6 +1,6 @@
 package blog.api.security.services;
 
-import blog.api.entity.User;
+import blog.api.user.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

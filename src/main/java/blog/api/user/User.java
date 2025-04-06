@@ -1,5 +1,8 @@
-package blog.api.entity;
+package blog.api.user;
 
+import blog.api.blogpost.BlogPost;
+import blog.api.comments.Comment;
+import blog.api.role.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
