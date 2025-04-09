@@ -1,6 +1,8 @@
 package blog.api.user;
 
 import blog.api.security.services.UserDetailsImpl;
+import blog.api.user.dto.ProfileRequest;
+import blog.api.user.dto.ProfileResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

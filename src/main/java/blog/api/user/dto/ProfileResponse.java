@@ -1,4 +1,4 @@
-package blog.api.user;
+package blog.api.user.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

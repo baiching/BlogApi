@@ -1,4 +1,4 @@
-package blog.api.user;
+package blog.api.user.dto;
 
 import jakarta.validation.constraints.Email;
 import lombok.Data;

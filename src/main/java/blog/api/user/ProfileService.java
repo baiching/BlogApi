@@ -1,5 +1,7 @@
 package blog.api.user;
 
+import blog.api.user.dto.ProfileRequest;
+import blog.api.user.dto.ProfileResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
