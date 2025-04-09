@@ -96,6 +96,12 @@
 			<artifactId>jakarta.validation-api</artifactId>
 			<version>3.1.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-rest-webmvc</artifactId>
+			<version>5.0.0-M1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
