@@ -2,6 +2,7 @@ package blog.api.security.controllers;
 
 import blog.api.role.ERole;
 import blog.api.role.Role;
+import blog.api.user.User;
 import blog.api.role.RoleRepository;
 import blog.api.security.jwt.JwtUtils;
 import blog.api.security.payload.request.LoginRequest;
@@ -9,7 +10,6 @@ import blog.api.security.payload.request.SignupRequest;
 import blog.api.security.payload.response.JwtResponse;
 import blog.api.security.payload.response.MessageResponse;
 import blog.api.security.services.UserDetailsImpl;
-import blog.api.user.User;
 import blog.api.user.UserRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
